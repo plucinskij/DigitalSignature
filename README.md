@@ -3,6 +3,12 @@ To run the application you need the pycryptodome library
 ```
 pip install pycryptodome
 ```
+
+Run script
+```
+python3 .\main.py
+```
+
 The file to be signed should be in the same directory as the python script.
 
 If you want to validate the signature, the files "signature.txt" and "public_key.pem" should also be in this directory
